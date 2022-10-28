@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classi di servizio */
+    .dashed-border{
+        border: dashed 2px red;
+    }
+
+    .solid-border{
+        border: solid 2px blue;
+    }
+/* Classi di servizio */
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-window{
+    height: 80vh;
+    width: 80vw;
+    overflow-y: auto;
+    
+}
+
+.col{
+    /* height: 453px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.image{
+    margin: 4px 1px 0px 1px;
+    height: 86px;
+    width: 167px;
+}
