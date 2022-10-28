@@ -12,6 +12,11 @@
     .solid-border{
         border: solid 2px blue;
     }
+
+    .size{
+        height: 30px;
+        width: 30px;
+    }
 /* Classi di servizio */
 
 main{
@@ -28,6 +33,11 @@ main{
     
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
 .col{
     /* height: 453px; */
     display: flex;
@@ -40,4 +50,13 @@ main{
     margin: 4px 1px 0px 1px;
     height: 86px;
     width: 167px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.col-sm{
+    display: flex;
 }
