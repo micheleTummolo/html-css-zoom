@@ -19,8 +19,12 @@
     }
 /* Classi di servizio */
 
-main{
+body{
     height: 100vh;
+}
+
+main{
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +54,7 @@ main{
     margin: 4px 1px 0px 1px;
     height: 86px;
     width: 167px;
+    position: relative;
 }
 
 .flex{
@@ -59,4 +64,30 @@ main{
 
 .col-sm{
     display: flex;
+}
+
+.footer-fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.end{
+    justify-content: end;
+}
+
+.label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 20px;
 }
