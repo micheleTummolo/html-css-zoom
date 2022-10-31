@@ -108,7 +108,6 @@ div.image{
     left: 0;
     color: white;
     display: flex;
-    background-color: black;
     background-color: rgb(59 58 58 / 75%);
     padding: 3px;
 }
@@ -141,4 +140,16 @@ div.label h4{
 
 .color-green{
     color: green;
+}
+
+.header-icon{
+    display: flex;
+    padding: 3px 6px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(59 58 58 / 75%);
+}
+
+.header-icon h5{
+    margin-left: 8px;
 }
