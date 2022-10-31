@@ -21,6 +21,7 @@
 
 body{
     height: 100vh;
+    background-color: black;
 }
 
 main{
@@ -31,8 +32,8 @@ main{
 }
 
 .size-window{
-    height: 80vh;
-    width: 80vw;
+    height: 82vh;
+    width: 95vw;
     overflow-y: auto;
     
 }
@@ -51,10 +52,15 @@ main{
 }
 
 .image{
-    margin: 4px 1px 0px 1px;
+    margin: 3px;
     height: 86px;
     width: 167px;
     position: relative;
+}
+
+div.image{
+    background-image: url(https://picsum.photos/167/86);
+    background-size: cover;
 }
 
 .flex{
@@ -88,6 +94,18 @@ main{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 50px;
-    height: 20px;
+    color: white;
+    display: flex;
+    background-color: black;
+    background-color: rgb(59 58 58 / 75%);
+    padding: 3px;
+}
+
+div.label h4{
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.color-white{
+    color: white;
 }
