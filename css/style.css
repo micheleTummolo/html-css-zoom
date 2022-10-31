@@ -16,6 +16,7 @@
     .size{
         height: 30px;
         width: 30px;
+        margin: 0px 3px;
     }
 /* Classi di servizio */
 
@@ -41,6 +42,7 @@ main{
 .row{
     display: flex;
     justify-content: space-between;
+    background-color: #3c3c3c;
 }
 
 .col{
@@ -70,6 +72,16 @@ div.image{
 
 .col-sm{
     display: flex;
+    padding: 5px;
+}
+
+.com-md{
+    display: flex;
+    padding: 5px;
+}
+
+.col-bg{
+    padding: 5px;
 }
 
 .footer-fixed{
@@ -108,4 +120,25 @@ div.label h4{
 
 .color-white{
     color: white;
+}
+
+.footer-icon{
+    color: white;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.footer-icon h5{
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+.end-icon{
+    color: red;
+    background-color: grey;
+    padding: 14px 8px;
+}
+
+.color-green{
+    color: green;
 }
