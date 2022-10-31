@@ -153,3 +153,16 @@ div.label h4{
 .header-icon h5{
     margin-left: 8px;
 }
+
+.pointer{
+    cursor: pointer;
+}
+
+.footer-icon:hover, .end-icon:hover, .header-icon:hover{
+    color: rgb(173, 173, 173);
+}
+
+.image:hover{
+    filter: brightness(0.5);
+    cursor: pointer;
+}
